@@ -960,6 +960,21 @@ export default function AudioVisualizer() {
           Click anywhere to show controls
         </div>
       )}
+
+      {/* Bolt.new branding */}
+      <a
+        href="https://bolt.new"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 transition-all duration-200 hover:scale-110"
+        title="Built with Bolt.new"
+      >
+        <img
+          src="https://github.com/kickiniteasy/bolt-hackathon-badge/blob/main/src/public/bolt-badge/white_circle_360x360/white_circle_360x360.png?raw=true"
+          alt="Built with Bolt.new"
+          className="w-12 h-12 drop-shadow-lg"
+        />
+      </a>
     </div>
   );
 }
